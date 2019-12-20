@@ -51,6 +51,9 @@ body {
   .description h1 {
     color: #0D67E2;
   }
+  .description h2 {
+	  color: #0D67E2;
+}
   .description p {
     color: #fff;
     font-size: 1.3rem;
