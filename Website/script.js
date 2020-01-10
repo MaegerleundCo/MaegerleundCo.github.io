@@ -1,12 +1,20 @@
-$(function() {
-    var selectedClass = "";
-    $(".filter").click(function(){
-    selectedClass = $(this).attr("data-rel");
-    $("#gallery").fadeTo(100, 0.1);
-    $("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
-    setTimeout(function() {
-    $("."+selectedClass).fadeIn().addClass('animation');
-    $("#gallery").fadeTo(300, 1);
-    }, 300);
-    });
+$(document).ready(function(){
+        $(window).scroll(function () {
+               if ($(this).scrollTop() > 50) {
+                   $('#back-to-top').fadeIn();
+               } else {
+                   $('#back-to-top').fadeOut();
+               }
+           });
+           // scroll body to 0px on click
+           $('#back-to-top').click(function () {
+               $('#back-to-top').tooltip('hide');
+               $('body,html').animate({
+                   scrollTop: 0
+               }, 800);
+               return false;
+           });
+           
+           $('#back-to-top').tooltip('show');
+    
     });
