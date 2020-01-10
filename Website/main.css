@@ -363,4 +363,14 @@ a {
 .bgr {
       background-color: honeydew;
 }
- 
+ .back-to-top {
+      cursor: pointer;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display:none;
+      background-image: url(back-to-top-icon-72846.png);
+      background-position: 3px 3px;
+  }
+}
+
