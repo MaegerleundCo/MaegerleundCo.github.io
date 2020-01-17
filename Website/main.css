@@ -174,23 +174,7 @@ body {
   display: flex;
   flex-direction: row;
 }
-.lebron {
-  padding-right: 50px;
-  padding-top: 150px;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-}
-.lebron2 {
-  padding-right: 50px;
-  padding-top: 200px;
-  padding-left: 20px;
-  width: 5000px;
-}
-.lebrons {
-display: flex;
-justify-content: flex-start;
-}
+
 .eins {
   padding-top: 600px;
 }
@@ -371,6 +355,8 @@ a {
       display:none;
       background-image: url(back-to-top-icon-72846.png);
       background-position: 3px 3px;
+      background-color: grey;
+      opacity: 0.5;
   }
 }
 
