@@ -53,7 +53,8 @@
             <div class="mb-3 pics animation all 1">
                 <img class="img-fluid" src="./bilder/IMG_20181227_170743.jpg" alt="Card image cap">
             </div>
-            </a>     
+            </a>   
+             
             <div class="mb-3 pics animation all 1">
             <img class="img-fluid" src="./bilder/IMG_20181020_132525.jpg" alt="Card image cap">
             </div>
@@ -69,6 +70,7 @@
             <div class="mb-3 pics animation all 2">
             <img class="img-fluid" src="./bilder/IMG_20181225_180447.jpg" alt="Card image cap">
             </div>
+             
             <div class="mb-3 pics animation all 1">
             <img class="img-fluid" src="./bilder/IMG_20190130_171318-EFFECTS.jpg" alt="Card image cap">
             </div>
@@ -85,6 +87,8 @@
                 <img class="img-fluid" src="./bilder/IMG_20190218_172101.jpg" alt="Card image cap">
             </div>
 
+             <span id="dots">...</span> <span id="more">
+                
             <div class="mb-3 pics animation all 1">
                 <img class="img-fluid" src="./bilder/IMG_20190218_172103.jpg" alt="Card image cap">
             </div>
@@ -124,6 +128,30 @@
             <div class="mb-3 pics animation all 1">
                 <img class="img-fluid" src="./bilder/IMG_20190616_171509.jpg" alt="Card image cap">
             </div>
+                
+             </span>    
+             <script type="text/javascript">
+                 var i=0;
+                 function read(){
+                     if(!i){
+                         document.getElemetById("more").style.
+                            display ="inline"; 
+                         document.getElemetById("dots").style.
+                            display ="none"; 
+                         document.getElemetById("read").innerHTML="show less";
+                         i=1;
+                     }
+                     else{
+                         document.getElemetById("more").style.
+                            display ="none"; 
+                         document.getElemetById("dots").style.
+                            display ="inline"; 
+                         document.getElemetById("read").innerHTML="show more";
+                         i=0;
+                     }
+                    
+             <button type="primary" id"read" onclick="read()">show more</button>
+                
             <div class="mb-3 pics animation all 1">
                 <img class="img-fluid" src="./bilder/IMG_20190711_211456.jpg" alt="Card image cap">
             </div>
