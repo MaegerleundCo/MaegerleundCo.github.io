@@ -328,14 +328,6 @@ a {
     transform: scale(1); }
     
     @media (max-width: 450px) {
-    .gallery {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-    -webkit-column-width: 100%;
-    -moz-column-width: 100%;
-    column-width: 100%;
-    }
     }
     
     @media (max-width: 400px) {
@@ -358,4 +350,6 @@ a {
       background-color: grey;
   }
 } 
-
+div {
+	Display: none;
+}
