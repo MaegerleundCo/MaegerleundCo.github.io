@@ -353,10 +353,9 @@ a {
       bottom: 20px;
       right: 20px;
       display:none;
-      background-image: url(back-to-top-icon-72846.png);
+      background-image: url(back-to-top-icon-72846.png) opacity: 1;
       background-position: 3px 3px;
       background-color: grey;
-      opacity: 0.5;
   }
 }
 
