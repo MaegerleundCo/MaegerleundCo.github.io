@@ -363,14 +363,6 @@ html, body {
   background: #e3e3e3;
 }
 
-h1 {
-  position: absolute;
-  top: 42%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #101010;
-}
-
 body{
 margin:0px;
 padding:0px;
